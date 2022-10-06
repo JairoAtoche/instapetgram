@@ -1,7 +1,14 @@
 import React from 'react';
+import { ListOfCategories } from '@/components/ListOfCategories';
+import GlobalStyles from '@/styles/globalStyles';
 
 const App = () => {
-	return <h1>Hola mundo!</h1>;
+	return (
+		<>
+			<GlobalStyles />
+			<ListOfCategories />
+		</>
+	);
 };
 
 export default App;

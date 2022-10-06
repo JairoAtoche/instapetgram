@@ -9,15 +9,17 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['.js', '.jsx'],
-		/*
-    alias: {
-      "@pages": path.resolve(__dirname, "src/pages/"),
+
+		alias: {
+			'@/components': path.resolve(__dirname, 'src/components/'),
+			'@/styles': path.resolve(__dirname, 'src/styles/'),
+			/*
       "@templates": path.resolve(__dirname, "src/templates/"),
       "@routes": path.resolve(__dirname, "src/routes/"),
       "@styles": path.resolve(__dirname, "src/styles/"),
       "@utils": path.resolve(__dirname, "src/utils/"),
-    },
-    */
+			*/
+		},
 	},
 	module: {
 		rules: [
