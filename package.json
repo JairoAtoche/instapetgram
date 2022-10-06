@@ -1,5 +1,5 @@
 {
-	"name": "petgram",
+	"name": "instapetgram",
 	"version": "1.0.0",
 	"description": "red social para subir y compartir fotos de mascotas",
 	"main": "index.js",
